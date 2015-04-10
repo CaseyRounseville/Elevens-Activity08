@@ -1,0 +1,5 @@
+1.In elevens, the cards being removed have to add up to 11. In tens, the cards being removed have to add up to 10. In thirteens,   the cards being removed have to add up to 13. In elevens, three cards can be removed if they are a king, queen, and a jack.     Elevens uses a 9 card board. Tens uses a 13 card board. Thirteens uses a 10 card board. In thirteens, kings are removed alone.   In tens, kings, queens, jacks, and tens are removed four at a time when they are the same rank(remove all 4 siuts of a card in   one turn). It is more likely to win thirteens than it is to win tens.
+
+2.When super is called in the constructor of the ElevensBoard class.
+
+3.The abstract methods isLegal and anotherPlayIsPossible cover the necessary differences needed to change the game to tens or     thirteens. IsLegal decides if a move is legal, which can add up to 10, 11, or 13. AnotherPlayIsPossible decides if the are any   more legal moves, which can be different combinations of kings, queens, and jacks or 2 cards that add up to 10, 11, or 13.
